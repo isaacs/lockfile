@@ -9,7 +9,7 @@ if (process.version.match(/^v0\.[0-6]/)) {
 var os = require('os')
 var filetime = 'ctime'
 if (os.platform() == "win32") {
-    filetime = 'mtime'
+  filetime = 'mtime'
 }
 
 var debug
